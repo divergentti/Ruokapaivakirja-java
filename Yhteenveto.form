@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="Ruokap&#xe4;iv&#xe4;kirja - Yhteenveto (c) 2016 Jari Hiltunen"/>
+    <Property name="name" type="java.lang.String" value="YhteenVetoKehys" noResource="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="panelHenkiloValinta" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="paneeliEnergiaLaskuri" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="toolBarYhteenVeto" alignment="0" min="-2" pref="386" max="-2" attributes="0"/>
+                  <Component id="panelToteutumaYhtVeto" alignment="0" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace pref="33" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <Component id="toolBarYhteenVeto" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="panelHenkiloValinta" max="32767" attributes="0"/>
+                  <Component id="paneeliEnergiaLaskuri" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="panelToteutumaYhtVeto" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="panelToteutumaYhtVeto">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="ff" red="cc" type="rgb"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Yhteenveto"/>
+          </Border>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="cc" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="labelEnsimmainenPunnitusvm" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelViimeisinPunnitusPvm" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelMitattuPainoEdellinen" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelPainoEro" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelEnnsutePainoAlennus" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelEnnustepaino" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="txtEnsimmainenPunnitusPvm" pref="71" max="32767" attributes="0"/>
+                          <Component id="txtViimeisinPunnitusPvm" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="txtEnnustePaino" alignment="0" pref="55" max="32767" attributes="0"/>
+                          <Component id="txtEnnustePainonAlentuminen" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtPainoEro" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtEdellinenMitattuPaino" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="scrollYhteenveto" min="-2" pref="499" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="labelEnsimmainenPunnitusvm" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtEnsimmainenPunnitusPvm" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="labelViimeisinPunnitusPvm" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtViimeisinPunnitusPvm" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="txtEdellinenMitattuPaino" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="labelMitattuPainoEdellinen" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="labelPainoEro" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtPainoEro" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="labelEnnsutePainoAlennus" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtEnnustePainonAlentuminen" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  <Component id="labelEnnustepaino" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="txtEnnustePaino" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Component id="scrollYhteenveto" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="labelEnsimmainenPunnitusvm">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Ensimm&#xe4;inen punnitusp&#xe4;iv&#xe4;m&#xe4;&#xe4;r&#xe4;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtEnsimmainenPunnitusPvm">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelViimeisinPunnitusPvm">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Viimeisin punnitusp&#xe4;iv&#xe4;m&#xe4;&#xe4;r&#xe4;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtViimeisinPunnitusPvm">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelEnnsutePainoAlennus">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Ennustepainonalennus kg"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelMitattuPainoEdellinen">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Edellinen mitattu paino"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtEdellinenMitattuPaino">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelPainoEro">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Painoero (alkupaino-edellinen mittaus)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtPainoEro">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtPainoEroActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtEnnustePainonAlentuminen">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="scrollYhteenveto">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JList" name="listaEnitenSyodyt">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Eniten olet saanut energiaa sy&#xf6;m&#xe4;ll&#xe4; n&#xe4;it&#xe4; tuotteita"/>
+                  </Border>
+                </Property>
+                <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="new javax.swing.AbstractListModel&lt;String&gt;() {&#xa;    String strings[] = enitenEnergiaa();&#xa;    public int getSize() { return strings.length; }&#xa;    public String getElementAt(int i) { return strings[i]; }&#xa;}" type="code"/>
+                </Property>
+                <Property name="selectionMode" type="int" value="0"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="labelEnnustepaino">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Ennustepaino kg"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtEnnustePaino">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="panelHenkiloValinta">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Henkil&#xf6;valinta"/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="comboValitseHenkilo" alignment="0" min="-2" pref="313" max="-2" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="labelIka" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="labelPaino" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="labelPituus" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="labelHuomautus" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="textHuomautus" min="-2" pref="244" max="-2" attributes="0"/>
+                                      <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                          <Component id="textIka" alignment="0" pref="40" max="32767" attributes="0"/>
+                                          <Component id="textPaino" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="textPituus" alignment="0" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="labelLaskennalliset" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="labelBMR" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="50" pref="4" max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="textYhteensaEnergia" min="-2" pref="82" max="-2" attributes="0"/>
+                                      <Component id="textBMR" min="-2" pref="82" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="labelEnergiaTapahtumiaYht" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="txtEnergiaTapahtumiaYhteensa" min="-2" pref="51" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="labelEnergiaPaiva" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="txtEnergiaPaiviaKulunut" min="-2" pref="50" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="25" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="comboValitseHenkilo" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="labelIka" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="textIka" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelLaskennalliset" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="labelPaino" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="textPaino" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelBMR" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="textBMR" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="labelPituus" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="textPituus" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="textYhteensaEnergia" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="textHuomautus" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelHuomautus" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="labelEnergiaTapahtumiaYht" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtEnergiaTapahtumiaYhteensa" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelEnergiaPaiva" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtEnergiaPaiviaKulunut" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JComboBox" name="comboValitseHenkilo">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Arial" size="12" style="1"/>
+            </Property>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new javax.swing.DefaultComboBoxModel&lt;&gt;(listaaHenkiloNimet())" type="code"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="comboValitseHenkiloActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelIka">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Ik&#xe4;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelPaino">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Alkupaino"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelPituus">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Pituus"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelHuomautus">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Huomautus"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="textIka">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="textPaino">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="textPituus">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="textHuomautus">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textHuomautusActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelLaskennalliset">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Laskennalliset energia-arviot kcal/vrk"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelBMR">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="BMR (peruskulutus)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="textBMR">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Yhteens&#xe4; kulutus"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="textYhteensaEnergia">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelEnergiaTapahtumiaYht">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Tapahtumia yhteens&#xe4;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtEnergiaTapahtumiaYhteensa">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelEnergiaPaiva">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="P&#xe4;ivi&#xe4; kulunut"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtEnergiaPaiviaKulunut">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="paneeliEnergiaLaskuri">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="cc" red="ff" type="rgb"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Energialaskenta"/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="labelEnergiaEdellinenVRK" min="-2" max="-2" attributes="0"/>
+                                      <Component id="labelEnergiaKaikkiYhteensa" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="txtEnergiaKeskimPaiva" min="-2" pref="50" max="-2" attributes="0"/>
+                                      <Component id="txtEnergiaEdVrk" min="-2" pref="50" max="-2" attributes="0"/>
+                                      <Component id="txtEnergiaKaikkiYht" min="-2" pref="72" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Component id="labelKCALSyoty" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="84" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="txtHHKeskimPaiva" min="-2" pref="55" max="-2" attributes="0"/>
+                                      <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                          <Component id="labelHiilaria" min="-2" max="-2" attributes="0"/>
+                                          <Component id="txtHHVrk" min="-2" pref="53" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="textProtEdVrk" min="-2" pref="54" max="-2" attributes="0"/>
+                                      <Component id="txtProtKeskimPaiva" min="-2" pref="54" max="-2" attributes="0"/>
+                                      <Component id="labelProteiinia" min="-2" max="-2" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="txtProtYht" min="-2" pref="72" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="txtHHYht" min="-2" pref="69" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="txtEnnusteEnergiaKok" alignment="0" min="-2" pref="72" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace pref="10" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="labelRasvaa" min="-2" max="-2" attributes="0"/>
+                                      <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                          <Component id="txtRasvaKeskimPaiva" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="txtRasvaVrk" alignment="0" pref="55" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="txtRasvaYht" min="-2" pref="69" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Component id="labelKeskimPaiva" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="labelEnnusteEnergiaKok" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="labelProteiinia" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="labelHiilaria" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="labelRasvaa" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="labelKCALSyoty" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="labelEnergiaEdellinenVRK" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtEnergiaEdVrk" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="textProtEdVrk" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtHHVrk" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtRasvaVrk" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="labelKeskimPaiva" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtEnergiaKeskimPaiva" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtProtKeskimPaiva" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtHHKeskimPaiva" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtRasvaKeskimPaiva" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtEnergiaKaikkiYht" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtProtYht" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtHHYht" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtRasvaYht" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelEnergiaKaikkiYhteensa" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="labelEnnusteEnergiaKok" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtEnnusteEnergiaKok" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="25" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="labelEnergiaEdellinenVRK">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Edellinen vuorokausi"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelEnergiaKaikkiYhteensa">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Kaikki yhteens&#xe4;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtEnergiaEdVrk">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtEnergiaKaikkiYht">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelProteiinia">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Proteiinia/g"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelKCALSyoty">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="KCAL sy&#xf6;ty:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="textProtEdVrk">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelHiilaria">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Hiilaria/g"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelRasvaa">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Rasvaa/g"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtHHVrk">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtRasvaVrk">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtProtYht">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtHHYht">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtRasvaYht">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelKeskimPaiva">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Keskim&#xe4;&#xe4;rin/p&#xe4;iv&#xe4;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtEnergiaKeskimPaiva">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtProtKeskimPaiva">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtHHKeskimPaiva">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtRasvaKeskimPaiva">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelEnnusteEnergiaKok">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Ennuste-energia yhteens&#xe4;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtEnnusteEnergiaKok">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JToolBar" name="toolBarYhteenVeto">
+      <Properties>
+        <Property name="rollover" type="boolean" value="true"/>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="buttonLopeta">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="LOPETA"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+                <BevelBorder/>
+              </Border>
+            </Property>
+            <Property name="focusable" type="boolean" value="false"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+            <Property name="verticalTextPosition" type="int" value="3"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="buttonLopetaMouseClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToolBar$Separator" name="jSeparator1">
+        </Component>
+        <Component class="javax.swing.JButton" name="buttonHenkilotiedot">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="HENKIL&#xd6;TIEDOT"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+                <BevelBorder/>
+              </Border>
+            </Property>
+            <Property name="focusable" type="boolean" value="false"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+            <Property name="verticalTextPosition" type="int" value="3"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="buttonHenkilotiedotMouseClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToolBar$Separator" name="jSeparator4">
+        </Component>
+        <Component class="javax.swing.JButton" name="buttonTuoteTiedot">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="TUOTETIEDOT"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+                <BevelBorder/>
+              </Border>
+            </Property>
+            <Property name="focusable" type="boolean" value="false"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+            <Property name="verticalTextPosition" type="int" value="3"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="buttonTuoteTiedotMouseClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToolBar$Separator" name="jSeparator3">
+        </Component>
+        <Component class="javax.swing.JButton" name="buttonPaivakirja">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="P&#xc4;IV&#xc4;KIRJA"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+                <BevelBorder/>
+              </Border>
+            </Property>
+            <Property name="focusable" type="boolean" value="false"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+            <Property name="verticalTextPosition" type="int" value="3"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="buttonPaivakirjaMouseClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToolBar$Separator" name="jSeparator2">
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
