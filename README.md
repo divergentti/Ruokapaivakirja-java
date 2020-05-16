@@ -2,34 +2,6 @@
 
 TYÖ: RUOKAPÄIVÄKIRJA
 
-Sisällys
-TYÖ: RUOKAPÄIVÄKIRJA	1
-Sovelluksen tarkempi idea	2
-Työn rajaukset	2
-Laskentakaavat	2
-Sovelluksen tärkeimmät tietokentät	3
-Sovellukset relaatiot	4
-Sovellukseen tehdyt luokat	4
-AlustaTietokanta.java	4
-Enegia.java	4
-Henkilo.java	5
-Henkilotiedot.java	5
-Levytoiminta.java	5
-Paivalaskuri.java	6
-Paivakirja.java	6
-Ruokapaivakirja.java	7
-Tapahtuma.java	9
-Tuote.java	9
-Tuotetiedot.java	9
-Yhteenveto.java	10
-
-
-
-
-
-
-
- 
 Lähtökohtana oli toteuttaa vapaasti jatkojalostettavissa oleva idea ruokapäiväkirjasta, joka voitaisiin siirtää esimerkiksi kännyköihin. Kännyköiden kameraa hyväksikäyttäen voidaan esim. GTIN/EAN-koodit (viivakoodi) ja muut kameran avulla luettavat koodit tulkita numerotiedoksi, joka yksilöi tuotteen. 
 Sovelluksen tarkempi idea
 
